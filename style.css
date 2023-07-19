@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+#form button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    width: 100%;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.input__group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.input__group input{
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    border: 1 px solid gray;
+}
+.error{
+    color: red;
+    margin-top: 0.3rem;
+}
+.input__group.success input{
+    border-color: green;
+    border: 3px solid green;
+}
+.input__group.fail input{
+    border-color: red;
+}
